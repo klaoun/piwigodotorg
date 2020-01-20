@@ -48,8 +48,9 @@ $(function(){
 
 /* Change testimonies background color dependng on user type (individual, pro, organisation */
 $(document).ready(function() {
-    var colors = ["#54616F","#5593F4","#F46755"];
-    $('.Individual').css("background-color", colors[0]);
-    $('.Professional').css("background-color", colors[1]);
-    $('.Organisation').css("background-color", colors[2]);
+    var colors = ["#EBF5FF","#E1D6FF","#FFEDCF"];
+    var fontColors = ["#338AC5","#7E72C0","#FF7700"];
+    $('.Individual').css("background-color", colors[0]).css("color", fontColors[0]);
+    $('.Professional').css("background-color", colors[1]).css("color", fontColors[1]);
+    $('.Organisation').css("background-color", colors[2]).css("color", fontColors[2]);
 });

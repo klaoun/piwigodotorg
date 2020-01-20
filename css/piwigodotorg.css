@@ -2373,16 +2373,56 @@ and (max-device-width : 480px) {
  * Piwigo testimonies CSS *
  **************************/
 
-.pwg-testimonies {
-    background-color: #54616F;
+ /*GRID*/
+ @media screen and (min-width:1200px){
+   .card-columns{
+     column-count: 2;
+   }
+ }
+ @media screen and (min-width:992px){
+   .card-columns{
+     column-count: 2;
+   }
+ }
+ @media screen and (min-width:768px){
+   .card-columns{
+     column-count: 2;
+   }
+ }
+@media screen and (min-width:576px){
+  .card-columns{
+    column-count: 2;
+  }
+}
+.card{
+  display: inline-block;
 }
 
-.pwg-testimonies h1, .pwg-testimonies p {
-    color: #FFFFFF;
+ /*---*/
+
+
+.pwg-testimonies h1 {
+  font-size: 56px;
+  font-weight: 900;
+  color: #3c3c3c;
+  line-height: 76px;
+  transition: all 1s;
+  z-index: 1;
+  width: 900px;
+  max-width: 80%;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .pwg-testimonies p {
-    font-size: 20px;
+  color: #7e7e7e;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 700;
+  line-height: 28px;
+  transition: all 1s;
+  text-align:center;
 }
 
 .pwg-testimonies-title {
@@ -2391,21 +2431,27 @@ and (max-device-width : 480px) {
     margin-bottom: 100px;
 }
 
-.pwg-testimonies-icon {
-    background-image: url(../images/testimonies/chat.svg);
-    background-size: 350px;
-    background-position: center 85%;
-    background-repeat: no-repeat;
+.pwg-testimonies .first-image{
+  width:600px;
+  text-align:center;
+  margin:0 auto;
+  margin-top:80px;
+}
+
+.pwg-testimonies .first-image img{
+  width:70%;
+  margin-bottom:80px;
 }
 
 /* Testimonies content - people advice about their experience using piwigo */
-
+/*
 .pwg-testimonies-row {
     margin-top: 100px;
     margin-bottom: 50px;
     margin-right: -30px;
     margin-left: -30px;
-}
+}*/
+
 
 .pwg-testimonies-content {
     margin-bottom: 30px;
@@ -2421,9 +2467,9 @@ and (max-device-width : 480px) {
 }
 
 .pwg-testimonies-advice {
-    color: #FFFFFF;
-    font-size: 20px;
-    padding: 20px 20px 20px 20px;
+    font-size: 15px;
+    padding: 20px;
+    margin:10px 0;
 }
 
 .pwg-testimonies-grey {
@@ -2456,13 +2502,7 @@ and (max-device-width : 480px) {
 }
 
 .pwg-testimonies-user {
-    margin-left: 0px;
-    margin-right: 0px;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
-}
-
-.pwg-testimonies-date, .pwg-testimonies-name {
-    color: #54616F;
+    text-align:center;
 }
 
 .pwg-testimonies-name span {
@@ -2479,14 +2519,14 @@ and (max-device-width : 480px) {
     font-size: 12px;
     text-align: center;
 }
-
+/*
 .padding-right-column-left {
     padding-right: 30px;
 }
 
 .padding-left-column-right {
     padding-left: 30px;
-}
+}*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .pwg-testimonies-row {
@@ -4353,12 +4393,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     text-decoration: none;
 }
 
-/*.gnu-license a:active,
-.gnu-license a:focus,
-.gnu-license a:hover {
-    font-weight: bold;
-}*/
-
 .whatispiwigo-gnu-collapse .card.card-body {
     margin-top: 20px;
 }
@@ -4375,19 +4409,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none;
     }
 }
-
-/*.gnu-license a:hover > span,
-.gnu-license a:focus > span,
-.gnu-license a:active > span {
-    transform:rotate(90deg);
-    -ms-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg);
-    -o-transform:rotate(90deg);
-    transition: transform 0.2s ease-out;
-    -webkit-transition: transform 0.2s ease-out;
-    -moz-transition: transform 0.2s ease-out;
-}*/
 
 .gnu-logo img {
     height: 50px;

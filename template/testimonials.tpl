@@ -1,38 +1,48 @@
   <section class="container-fluide pwg-testimonies">
     <div class="container">
       <div class="equal">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <h1>{'Testimonials'|translate}</h1>
           <p>{'porg_testimonials_desc1'|translate} {'porg_testimonials_desc2'|translate}</p>
         </div>
-        <div class="col-md-6 pwg-testimonies-icon">
+        <div class="col-sm-12 first-image">
+          <img src="{$PORG_ROOT_URL}images/testimonies/testimonials-first-image.svg">
         </div>
       </div>
     </div>
   </section>
 
  <section class="container">
-    <div class="row pwg-testimonies-row">
-      {foreach from=$testimonials key=testimonials_date item=testimonials_content}
-      <div class="col-md-6 col-xs-12 pwg-testimonies-content{if isset($testimonials_content.css_class)} {$testimonials_content.css_class}{/if}">
-          <div class="pwg-testimonies-advice {$testimonials_content.user.type}">
-            <p>{$testimonials_content.content}</p>
-          </div>
-          <div class="equal pwg-testimonies-user">
-            <div class="col-md-2 col-xs-2 pwg-testimonies-picture">
-              <a{if $testimonials_content.user.url != null} href="{$testimonials_content.user.url}" {/if}><img src="{$PORG_ROOT_URL}{$testimonials_content.user.picture}"/></a>
-            </div>
-            <div class="col-md-5 col-xs-5 pwg-testimonies-name">
-              <p><span class="bold">{$testimonials_content.user.username}</span><br>{if isset($testimonials_content.user.organisation)}{$testimonials_content.user.organisation}{else}{$testimonials_content.user.type}{/if}</p>
-            </div>
-            <div class="col-md-5 col-xs-5 pwg-testimonies-date">
-              <p>{$testimonials_content.user.country}, {$testimonials_content.added_on}</p>
-            </div>
-          </div>
-      </div>
-      {/foreach}
-    </div>
-  </section>
+
+     <div class="row">
+
+       <div class="card-columns" >
+         {foreach from=$testimonials key=testimonials_date item=testimonials_content}
+
+         <div class="card pwg-testimonies-advice {$testimonials_content.user.type}">
+           <div class="card-body">
+             <div class="">
+               <p>{$testimonials_content.content}</p>
+               <div class=" pwg-testimonies-user">
+                 <div class="pwg-testimonies-name">
+                   <p><span class="bold">{$testimonials_content.user.username}</span><br>{if isset($testimonials_content.user.organisation)}{$testimonials_content.user.organisation}{else}{$testimonials_content.user.type}{/if}</p>
+                   <p>{$testimonials_content.user.country}, {$testimonials_content.added_on}</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         {/foreach}
+       </div>
+
+     </div>
+
+
+</section>
+
+
+
+
 
 {assign var=share_url value="{$URL.contact}&type=testimonial"}
 
