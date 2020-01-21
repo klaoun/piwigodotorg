@@ -2455,10 +2455,13 @@ and (max-device-width : 480px) {
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 40px;
+      max-width:100%;
+      margin-top:40px;
   }
   .pwg-testimonies .testimonials-title p{
     margin-top: 10px;
     font-size: 18px;
+    text-align:center;
   }
 }
 
