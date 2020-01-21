@@ -2431,8 +2431,15 @@ and (max-device-width : 480px) {
     margin-bottom: 100px;
 }
 
+.pwg-testimonies .testimonials-title h1, .pwg-testimonies .testimonials-title p{
+  width:100%;
+}
+
+.pwg-testimonies .testimonials-title h1{
+  margin-top:65px;
+}
+
 .pwg-testimonies .first-image{
-  width:600px;
   text-align:center;
   margin:0 auto;
   margin-top:80px;
@@ -2443,15 +2450,35 @@ and (max-device-width : 480px) {
   margin-bottom:80px;
 }
 
-/* Testimonies content - people advice about their experience using piwigo */
-/*
-.pwg-testimonies-row {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-right: -30px;
-    margin-left: -30px;
-}*/
+@media (max-width: 991px){
+  .pwg-testimonies .testimonials-title h1 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 40px;
+  }
+  .pwg-testimonies .testimonials-title p{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
 
+@media (max-width: 767px){
+  .pwg-testimonies .testimonials-title h1{
+    font-weight: 900;
+    line-height: 40px;
+    padding: 0;
+  }
+  .pwg-testimonies .testimonials-title p{
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 0;
+    line-height: normal;
+  }
+}
+
+/* Testimonies content - people advice about their experience using piwigo */
 
 .pwg-testimonies-content {
     margin-bottom: 30px;
@@ -2543,6 +2570,7 @@ and (max-device-width : 480px) {
         font-size: 12px;
         padding-top: 30px;
     }
+
 }
 
 @media (max-width: 991px) {
@@ -2573,6 +2601,19 @@ and (max-device-width : 480px) {
         font-size: 10px;
         padding-top: 47px;
     }
+
+}
+
+@media (max-width: 790px){
+  .pwg-testimonies-advice{
+    margin:10px;
+  }
+}
+
+@media (max-width: 576px){
+  .pwg-testimonies-advice{
+    margin:10px 20px;;
+  }
 }
 
 @media (max-width: 550px) {

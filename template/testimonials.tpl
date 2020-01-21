@@ -1,11 +1,11 @@
   <section class="container-fluide pwg-testimonies">
     <div class="container">
       <div class="equal">
-        <div class="col-md-12">
+        <div class="col-md-6 testimonials-title">
           <h1>{'Testimonials'|translate}</h1>
           <p>{'porg_testimonials_desc1'|translate} {'porg_testimonials_desc2'|translate}</p>
         </div>
-        <div class="col-sm-12 first-image">
+        <div class="col-sm-6 first-image">
           <img src="{$PORG_ROOT_URL}images/testimonies/testimonials-first-image.svg">
         </div>
       </div>
