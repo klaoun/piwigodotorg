@@ -2410,9 +2410,6 @@ and (max-device-width : 480px) {
   z-index: 1;
   width: 900px;
   max-width: 80%;
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .pwg-testimonies p {
@@ -2433,10 +2430,11 @@ and (max-device-width : 480px) {
 
 .pwg-testimonies .testimonials-title h1, .pwg-testimonies .testimonials-title p{
   width:100%;
+  text-align:left;
 }
 
 .pwg-testimonies .testimonials-title h1{
-  margin-top:65px;
+  margin-top:130px;
 }
 
 .pwg-testimonies .first-image{
