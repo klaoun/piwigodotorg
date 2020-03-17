@@ -23,6 +23,7 @@ function porg_get_pages()
     'showcases' => null,
     'testimonials' => 'Testimonials',
     'mobile-apps-privacy-policy' => 'Privacy Policy for Mobile Apps',
+    'demo' => 'Demo'
     );
 }
 
