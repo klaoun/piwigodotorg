@@ -1,4 +1,5 @@
 /* Masonry for Changelogs boxes */
+/*
 $(function(){
     var m = new Masonry($('.grid').get()[0], {
         itemSelector: ".version-box"
@@ -15,7 +16,7 @@ $(function() {
     $(document).click(function() {
         $('.dropdown-el').removeClass('expanded');
     });
-});
+});*/
 
 /* Display and hide GNU Logo when collapse is active */
 $(function() {
