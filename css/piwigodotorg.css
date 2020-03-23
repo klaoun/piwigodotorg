@@ -5392,70 +5392,84 @@ label {
 
  /* Changelogs header*/
 
- .container-fluide-changelogs {
-    background-color: #54616F;
+.changelogs-intro{
+    position:relative;
+    padding-top:30px;
+}
+
+ .container-fluide-changelogs h1{
+    margin-top: 20px;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    color: #3c3c3c;
+    line-height: 76px;
+    transition: all 1s;
+    margin: 0;
  }
 
- .container-fluide-changelogs h1,
  .container-fluide-changelogs p {
-    color: #FFFFFF;
- }
-
- .container-fluide-changelogs p {
+    color: #7e7e7e;
     font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 1s;
+    text-align: left;
  }
 
- .changelogs-logo {
-    height: 165px;
-    background-image: url(../images/changelogs/banner_changelogs.svg);
-    background-size: 25%;
-    background-repeat: no-repeat;
-    background-position: 65% 580%;
+ .changelogs-intro-text{
+     position:absolute;
+     top:50%;
+     transform:translateY(-50%);
+ }
+
+ .changelogs-intro-image{
+     float:right;
+ }
+
+ .changelogs-intro img{
+     width:70%;
+     margin:0 auto;
  }
 
  /* All piwigo versions */
 
  .container-changelogs-versions {
-    margin-top: 100px;
     margin-bottom: 100px;
  }
+
 
  /* Major versions */
 
 .version-major {
-    height: 560px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 10px 10px 10px 10px;
-    background-color: #54616F;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    width:100%;
+    height: 260px;
+    margin:45px 0;
+    padding: 30px;;
+    background-color:#ced4da;
 }
 
 .version-major h2,
 .version-major p,
 .version-major a {
-    color: #FFFFFF;
+    color: #54616F;
 }
 
 .version-major h2 {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 15px;
+    margin-top:0;
 }
 
 .version-major p {
     font-size: 20px;
+    margin:0;
 }
 
 .version-major a {
     text-decoration: none;
-}
-
-.version-major-content {
-    margin-top: 100px;
-    margin-bottom: 115px;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .version-major-content ul {
@@ -5466,36 +5480,27 @@ label {
 .version-major-content li {
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #FFFFFF;
+    display:inline-block;
+    padding:10px 15px;
+    font-size:16px;
 }
 
-.version-major-border-top {
-    width: 33.33%;
-    height: 1px;
-    margin-left: 33.33%;
-    margin-bottom: 30px;
-    border-top: 1px solid #FFFFFF;
+.version-major .read-more a{
+    color:white;
+    padding:15px 20px;
+    font-size:16px;
 }
 
-.version-major-border-bottom {
-    width: 33.33%;
-    height: 1px;
-    margin-left: 33.33%;
-    margin-top: 30px;
-    border-bottom: 1px solid #FFFFFF;
-}
 
  /* Minor versions */
 
  .version-minor {
-    height: 250px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: #FFFFFF;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    width: 200px;
+    padding:30px 15px;
+    margin:15px;
+    border:2px solid #54616F;
+    display:inline-block;
+    background-color:white;
 }
 
  .version-minor h2 {
@@ -5503,16 +5508,17 @@ label {
     margin-bottom: 15px;
     font-size: 28px;
     font-weight: bold;
+    margin-top:5px;
 }
 
  .version-minor p {
     color: #54616F;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 40px;
 }
 
  .version-minor a {
-    color: #FF7700;
+    color: #54616F;
     font-size: 18px;
     text-decoration: none;
 }
@@ -5527,57 +5533,74 @@ label {
 }
 
 .read-more {
-    display: none;
-}
-
-.version-box:hover .read-more {
     display: block;
 }
 
 .primary-version {
-    height: 250px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width:100%;
+    height: 260px;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #54616F;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    padding: 30px;;
+    background-color:#ced4da;
 }
 
 .primary-version h2,
 .primary-version p {
-    color: #FFFFFF;
+    color: #54616F;
 }
 
 
 .primary-version h2 {
     font-size: 28px;
     font-weight: bold;
-    margin-top: 100px;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 
-.primary-version-content {
-    height: 100px;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    border-left: 1px solid #FFFFFF;
-    border-right: 1px solid #FFFFFF;
+.primary-version p{
+    font-size: 20px;
+    margin: 0;
 }
 
 .primary-version-content p {
-    margin-top: 38.667px;
-    font-size: 20px;
-    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #54616F;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight:bold;
 }
 
 .primary-version-read-more p {
-    margin-top: 113px;
     font-size: 20px;
 }
 
 .primary-version-read-more a {
-    color: #FFFFFF;
-    text-decoration: none;
+    color: white;
+    background-color: #54616F;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+
+ /* Version colors */
+
+.container-changelogs-versions .version-major:nth-child(4n-7){
+    background-color:#FFEACF;
+}
+
+.container-changelogs-versions .version-major:nth-child(4n-6){
+    background-color:#efecfa;
+}
+
+.container-changelogs-versions .version-major:nth-child(4n-5){
+    background-color:#f7fbff;
+}
+
+.container-changelogs-versions .version-major:nth-child(4n-4){
+    background-color:#FFDEE5;
 }
 
  /* Techs views */

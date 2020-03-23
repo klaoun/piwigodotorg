@@ -1,11 +1,12 @@
   <section class="container-fluide container-fluide-changelogs">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+      <div class="row changelogs-intro">
+        <div class="col-md-6 changelogs-intro-text">
           <h1>{'Changelogs'|translate}</h1>
           <p>{'porg_changelogs_desc1'|translate} {'porg_changelogs_desc2'|translate}</p>
         </div>
-        <div class="col-md-6 changelogs-logo">
+        <div class="col-md-6 text-center changelogs-intro-image">
+         <img src="{$PORG_ROOT_URL}images/changelogs/changelogs-illustration.svg"/>
         </div>
       </div>
     </div>
@@ -13,38 +14,48 @@
 
   <div class="container container-changelogs-versions">
     <div class="row grid text-center">
+
       {foreach from=$releases key=version item=summary}
-      <div class="col-md-3 col-xs-12 version-box">
+
+      <!--<div class="version-box">-->
+
         <div class="version-{$releases[$version].state}">
+          
+          {if {$releases[$version].state} == 'major'}
           <h2>Piwigo {$version}</h2>
           <p>{$releases[$version].released_on}</p>
-          {if {$releases[$version].state} == 'major'}
           <div class="version-major-content">
-            <div class="version-major-border-top"></div>
             <ul class="bold">
             {foreach from=$releases[$version].summary key=key item=summary}
               <li>{$summary|translate}</li>
             {/foreach}
             </ul>
-            <div class="version-major-border-bottom"></div>
           </div>
           {/if}
+
+          {if {$releases[$version].state} == 'minor'}
+          <h2>{$version}</h2>
+          <p>{$releases[$version].released_on}</p>
+          {/if}
+
           <div class="read-more">
             <a href="{$PORG_ROOT}{$URL.release}-{$version}">{'Read more'|translate}</a>
           </div>
         </div>
-      </div>
+     <!-- </div>-->
+
       {/foreach}
-       <div class="col-md-9 col-xs-12 version-box">
+
+       <div class="col-md-12 col-xs-12 version-box">
         <div class="primary-version">
-          <div class="col-md-3 col-xs-3">
+          <div class="col-xs-12">
             <h2>Piwigo 1.0.0</h2>
             <p>2002-04-15</p>
           </div>
-          <div class="col-md-6 col-xs-6 primary-version-content">
+          <div class="col-xs-12 primary-version-content">
             <p>Birth of Piwigo</p>
           </div>
-          <div class="col-md-3 col-xs-3 primary-version-read-more">
+          <div class="col-xs-12 primary-version-read-more">
             <p><a href="{$PORG_ROOT}{$URL.release}-1.0.0">Read more</a></p>
           </div>
         </div>
@@ -59,3 +70,5 @@
       </div>
     </div>
   </section>
+
+  <script src="{$PORG_ROOT_URL}js/changelogs.js"></script>
