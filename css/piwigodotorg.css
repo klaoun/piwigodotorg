@@ -2056,7 +2056,6 @@ h2{
     font-weight: 700;
     margin-bottom: 20px;
 }
-}
 
 .pwg-features-users-management-screen {
     overflow: visible;
@@ -5436,24 +5435,18 @@ label {
  /* All piwigo versions */
 
  .container-changelogs-versions {
-    margin-bottom: 100px;
+    margin: 60px 0;
+    overflow:hidden;
  }
 
+.container-changelogs-versions .version-wave{
+    width:100%;
+}
 
  /* Major versions */
 
 .version-major {
-    width:100%;
-    height: 260px;
-    margin:45px 0;
-    padding: 30px;;
-    background-color:#ced4da;
-}
-
-.version-major h2,
-.version-major p,
-.version-major a {
-    color: #54616F;
+    padding: 30px;
 }
 
 .version-major h2 {
@@ -5494,17 +5487,18 @@ label {
 
  /* Minor versions */
 
+ .minor-versions-container{
+    margin:30px 0;
+ }
+
  .version-minor {
     width: 200px;
     padding:30px 15px;
-    margin:15px;
-    border:2px solid #54616F;
+    margin:10px 6px;;
     display:inline-block;
-    background-color:white;
 }
 
  .version-minor h2 {
-    color: #54616F;
     margin-bottom: 15px;
     font-size: 28px;
     font-weight: bold;
@@ -5512,13 +5506,10 @@ label {
 }
 
  .version-minor p {
-    color: #54616F;
     font-size: 15px;
-    margin-bottom: 40px;
 }
 
  .version-minor a {
-    color: #54616F;
     font-size: 18px;
     text-decoration: none;
 }
@@ -5538,16 +5529,7 @@ label {
 
 .primary-version {
     width:100%;
-    height: 260px;
-    margin-top: 30px;
-    margin-bottom: 30px;
     padding: 30px;;
-    background-color:#ced4da;
-}
-
-.primary-version h2,
-.primary-version p {
-    color: #54616F;
 }
 
 
@@ -5556,51 +5538,221 @@ label {
     font-weight: bold;
     margin-bottom: 15px;
     margin-top: 0;
+    color:#eb8400;
 }
 
 .primary-version p{
     font-size: 20px;
     margin: 0;
+    color:#eb8400;
 }
 
 .primary-version-content p {
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #54616F;
+
     display: inline-block;
     padding: 10px 15px;
     font-size: 16px;
     font-weight:bold;
 }
 
-.primary-version-read-more p {
-    font-size: 20px;
+.primary-version .read-more {
+    margin-top:40px;
 }
 
-.primary-version-read-more a {
-    color: white;
-    background-color: #54616F;
+.primary-version a {
     padding: 15px 20px;
     font-size: 16px;
+    margin-top:30px;
+    background-color:#ff7700;
+    color:white;
+    cursor:pointer;
+}
+
+.primary-version a:hover {
+    text-decoration:none;
+    background-color:#eb8400;
+}
+
+.primary-version img{
+    width:50%
+}
+
+/* Version images */
+
+.version-row{
+    position:relative;
+}
+
+.right-image .version-image{
+    margin: 0;
+    width:60%;
+}
+
+.container-changelogs-versions .right-image .corner1{
+    top: -30px;
+    left: 122px;
+    position:absolute;
+}
+
+.container-changelogs-versions .right-image .corner2{
+    bottom: -30px;
+    right: 110px;
+    position:absolute;
+}
+
+.left-image .version-image{
+    margin: 0;
+    width:60%;
+}
+
+.container-changelogs-versions .left-image .corner3{
+    top: -30px;
+    right: 122px;
+    position:absolute;
+    transform: rotate(-90deg);
+}
+
+.container-changelogs-versions .left-image .corner4{
+    bottom: -30px;
+    left: 110px;
+    position:absolute;
+    transform: rotate(-90deg);
+}
+
+.right-image-centered{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
 }
 
 
  /* Version colors */
+ .version-wave-top,
+ .no-wave{
+     margin-top:40px;
+ }
 
-.container-changelogs-versions .version-major:nth-child(4n-7){
-    background-color:#FFEACF;
-}
+ .version-wave-bottom,
+ .no-wave{
+     margin-bottom:40px;
+ }
 
-.container-changelogs-versions .version-major:nth-child(4n-6){
+
+.container-changelogs-versions .version-purple{
     background-color:#efecfa;
+    position:relative;
 }
 
-.container-changelogs-versions .version-major:nth-child(4n-5){
+.version-purple .version-major h2,
+.version-purple .version-major p,
+.version-purple .version-major a, 
+.version-purple .version-major li, 
+.version-purple .version-minor h2,
+.version-purple .version-minor p,
+.version-purple .version-minor a {
+    color: #463283;
+}
+
+.version-purple .version-major .read-more a{
+    color:white;
+    background-color:#7e64d0;
+}
+
+.version-purple .version-minor {
+    border:2px solid #463283;
+}
+
+.version-purple .version-major .read-more a:hover,
+.version-purple .version-minor:hover{
+    background-color:#463283;
+    color:white;
+    cursor:pointer;
+}
+
+.version-purple .version-minor:hover h2,
+.version-purple .version-minor:hover p{
+    color:white;
+}
+
+.container-changelogs-versions .version-blue{
     background-color:#f7fbff;
+    position:relative;
 }
 
-.container-changelogs-versions .version-major:nth-child(4n-4){
-    background-color:#FFDEE5;
+.version-blue .version-major h2,
+.version-blue .version-major p,
+.version-blue .version-major a, 
+.version-blue .version-major li, 
+.version-blue .version-minor h2,
+.version-blue .version-minor p,
+.version-blue .version-minor a {
+    color: #286aac;
+}
+
+.version-blue .version-major .read-more a{
+    color:white;
+    background-color:#53a6f9;
+}
+
+.version-blue .version-minor {
+    border:2px solid #286aac;
+}
+
+.version-blue .version-major .read-more a:hover,
+.version-blue .version-minor:hover{
+    background-color:#286aac;
+    color:white;
+    cursor:pointer;
+}
+
+.version-blue .version-minor:hover h2,
+.version-blue .version-minor:hover p{
+    color:white;
+}
+
+.container-changelogs-versions .version-orange{
+    background-color:#ffeacf;
+    position:relative;
+}
+
+.version-orange .version-major h2,
+.version-orange .version-major p,
+.version-orange .version-major a, 
+.version-orange .version-major li, 
+.version-orange .version-minor h2,
+.version-orange .version-minor p,
+.version-orange .version-minor a {
+    color: #eb8400;
+}
+
+.version-orange .version-major .read-more a{
+    color:white;
+    background-color:#ff7700;
+}
+
+.version-orange .version-minor {
+    border:2px solid #eb8400;
+}
+
+.version-orange .version-major .read-more a:hover,
+.version-orange .version-minor:hover{
+    background-color:#eb8400;
+    color:white;
+    cursor:pointer;
+}
+
+.version-orange .version-minor:hover h2,
+.version-orange .version-minor:hover p{
+    color:white;
+}
+
+.no-wave{
+    background-color:transparent!important;
 }
 
  /* Techs views */
