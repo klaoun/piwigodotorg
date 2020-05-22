@@ -18,6 +18,7 @@
 
       <img class="version-wave-top" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/purple_wave_top.svg">
       <div class="version-purple">
+      <div class="container">
         <div class="row">
         <div class="left-text col-md-6 col-xs-12">
           <div class="version-major">
@@ -26,7 +27,9 @@
             <div class="version-major-content">
               <ul class="bold">
                 <li>Default theme Modus</li>
+                ·
                 <li>Admin redesign</li>
+                ·
                 <li>Dark mode</li>
               </ul>
               <div class="read-more">
@@ -55,10 +58,12 @@
           <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
         </div>
         </div>
+        </div>
       </div>
       <img class="version-wave-bottom"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/purple_wave_bottom.svg">
 
       <div class="version-orange no-wave">
+      <div class="container">
         <div class="row">
         <div class="left-image col-md-6 col-xs-12">
           <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
@@ -72,6 +77,7 @@
             <div class="version-major-content">
               <ul class="bold">
                 <li>Modernized design</li>
+                ·
                 <li>update notification</li>
               </ul>
               <div class="read-more">
@@ -104,9 +110,11 @@
         </div>
         </div>
       </div>
+      </div>
 
       <img class="version-wave-top" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/blue_wave_top.svg">
       <div class="version-blue">
+      <div class="container">
         <div class="row">
         <div class="left-text col-md-6 col-xs-12">
           <div class="version-major">
@@ -115,7 +123,9 @@
             <div class="version-major-content">
               <ul class="bold">
                 <li>Default theme Modus</li>
-                <li>Admin redesign</li>
+                 ·
+                <li>Admin redesign </li>
+                 ·
                 <li>Dark mode</li>
               </ul>
               <div class="read-more">
@@ -157,9 +167,11 @@
         </div>
         </div>
       </div>
+      </div>
       <img class="version-wave-bottom"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/blue_wave_bottom.svg">
 
       <div class="version-purple no-wave">
+      <div class="container">
         <div class="row">
         <div class="left-image col-md-6 col-xs-12">
           <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
@@ -173,6 +185,7 @@
             <div class="version-major-content">
               <ul class="bold">
                 <li>Modernized design</li>
+                ·
                 <li>update notification</li>
               </ul>
               <div class="read-more">
@@ -192,10 +205,12 @@
           </div>
         </div>
         </div>
+        </div>
       </div>
     
       <img class="version-wave-top" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/orange_wave_top.svg">
       <div class="version-orange">
+      <div class="container">
         <div class="row">
         <div class="left-text col-md-6 col-xs-12">
           <div class="version-major">
@@ -204,7 +219,9 @@
             <div class="version-major-content">
               <ul class="bold">
                 <li>Default theme Modus</li>
+                ·
                 <li>Admin redesign</li>
+                ·
                 <li>Dark mode</li>
               </ul>
               <div class="read-more">
@@ -234,9 +251,11 @@
         </div>
         </div>
       </div>
+      </div>
       <img class="version-wave-bottom"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/orange_wave_bottom.svg">
 
       <div class="version-blue no-wave">
+      <div class="container">
         <div class="row">
         <div class="left-image col-md-6 col-xs-12">
           <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
@@ -270,9 +289,11 @@
         </div>
         </div>
       </div>
+      </div>
 
       <img class="version-wave-top"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/orange_wave_top.svg">
        <div class="version-orange primary-version">
+       <div class="container">
         <div class="row">
         <div class="left-text col-md-6 col-xs-12">
           <div class="primary-version">
@@ -290,6 +311,7 @@
           <img src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/birth-piwigo-illustration.svg">
         </div>
         </div>
+      </div>
       </div>
       <img class="version-wave-bottom"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/orange_wave_bottom.svg">
 
