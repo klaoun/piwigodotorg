@@ -12,56 +12,290 @@
     </div>
   </section>
 
-  <div class="container container-changelogs-versions">
+<section>
+  <div class="container-changelogs-versions">
     <div class="row grid text-center">
 
-      {foreach from=$releases key=version item=summary}
-
-      <!--<div class="version-box">-->
-
-        <div class="version-{$releases[$version].state}">
-          
-          {if {$releases[$version].state} == 'major'}
-          <h2>Piwigo {$version}</h2>
-          <p>{$releases[$version].released_on}</p>
-          <div class="version-major-content">
-            <ul class="bold">
-            {foreach from=$releases[$version].summary key=key item=summary}
-              <li>{$summary|translate}</li>
-            {/foreach}
-            </ul>
-          </div>
-          {/if}
-
-          {if {$releases[$version].state} == 'minor'}
-          <h2>{$version}</h2>
-          <p>{$releases[$version].released_on}</p>
-          {/if}
-
-          <div class="read-more">
-            <a href="{$PORG_ROOT}{$URL.release}-{$version}">{'Read more'|translate}</a>
+      <img class="version-wave-top" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/purple_wave_top.svg">
+      <div class="version-purple">
+        <div class="row">
+        <div class="left-text col-md-6 col-xs-12">
+          <div class="version-major">
+            <h2> Piwigo 2.10.0</h2>
+            <p>October 8th, 2019</p>
+            <div class="version-major-content">
+              <ul class="bold">
+                <li>Default theme Modus</li>
+                <li>Admin redesign</li>
+                <li>Dark mode</li>
+              </ul>
+              <div class="read-more">
+                <a>See more details</a>
+              </div>
+            </div>
+          </div>        
+          <div class="minor-versions-container">
+            <div class="version-minor">
+              <a src="#">
+                <h2>2.10.1</h2>
+                <p>October 14th, 2019</p>
+              <a>
+            </div>
+            <div class="version-minor">
+              <a src="#">
+                <h2>2.10.2</h2>
+                <p>March 27th, 2020</p>
+              </a>
+            </div>
           </div>
         </div>
-     <!-- </div>-->
-
-      {/foreach}
-
-       <div class="col-md-12 col-xs-12 version-box">
-        <div class="primary-version">
-          <div class="col-xs-12">
-            <h2>Piwigo 1.0.0</h2>
-            <p>2002-04-15</p>
-          </div>
-          <div class="col-xs-12 primary-version-content">
-            <p>Birth of Piwigo</p>
-          </div>
-          <div class="col-xs-12 primary-version-read-more">
-            <p><a href="{$PORG_ROOT}{$URL.release}-1.0.0">Read more</a></p>
-          </div>
+        <div class="right-image col-md-6 col-xs-12">
+          <img class="corner1" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
+          <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.10.png">
+          <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
+        </div>
         </div>
       </div>
+      <img class="version-wave-bottom"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/purple_wave_bottom.svg">
+
+      <div class="version-orange no-wave">
+        <div class="row">
+        <div class="left-image col-md-6 col-xs-12">
+          <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
+          <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.9.png">
+          <img class="corner4" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
+        </div>
+        <div class="right-text col-md-6 col-xs-12">
+          <div class="version-major">
+            <h2> Piwigo 2.9.0</h2>
+            <p>May 2nd, 2017</p>
+            <div class="version-major-content">
+              <ul class="bold">
+                <li>Modernized design</li>
+                <li>update notification</li>
+              </ul>
+              <div class="read-more">
+                <a>See more details</a>
+              </div>
+            </div>
+          </div>        
+          <div class="minor-versions-container">
+            <div class="version-minor">
+              <h2>2.9.1</h2>
+              <p>June 15th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.9.2</h2>
+              <p>October 6th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.9.3</h2>
+              <p>October 6th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.9.4</h2>
+              <p>October 6th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.9.5</h2>
+              <p>October 6th, 2017</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <img class="version-wave-top" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/blue_wave_top.svg">
+      <div class="version-blue">
+        <div class="row">
+        <div class="left-text col-md-6 col-xs-12">
+          <div class="version-major">
+            <h2> Piwigo 2.8.0</h2>
+            <p>October 8th, 2019</p>
+            <div class="version-major-content">
+              <ul class="bold">
+                <li>Default theme Modus</li>
+                <li>Admin redesign</li>
+                <li>Dark mode</li>
+              </ul>
+              <div class="read-more">
+                <a>See more details</a>
+              </div>
+            </div>
+          </div>        
+          <div class="minor-versions-container">
+            <div class="version-minor">
+              <h2>2.8.1</h2>
+              <p>June 15th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.8.2</h2>
+              <p>October 6th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.8.3</h2>
+              <p>October 6th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.8.4</h2>
+              <p>October 6th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.8.5</h2>
+              <p>October 6th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.8.6</h2>
+              <p>October 6th, 2017</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-image col-md-6 col-xs-12">
+          <img class="corner1" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
+          <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.10.png">
+          <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
+        </div>
+        </div>
+      </div>
+      <img class="version-wave-bottom"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/blue_wave_bottom.svg">
+
+      <div class="version-purple no-wave">
+        <div class="row">
+        <div class="left-image col-md-6 col-xs-12">
+          <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
+          <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.9.png">
+          <img class="corner4" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
+        </div>
+        <div class="right-text col-md-6 col-xs-12">
+          <div class="version-major">
+            <h2> Piwigo 2.7.0</h2>
+            <p>May 2nd, 2017</p>
+            <div class="version-major-content">
+              <ul class="bold">
+                <li>Modernized design</li>
+                <li>update notification</li>
+              </ul>
+              <div class="read-more">
+                <a>See more details</a>
+              </div>
+            </div>
+          </div>        
+          <div class="minor-versions-container">
+            <div class="version-minor">
+              <h2>2.9.1</h2>
+              <p>June 15th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.9.2</h2>
+              <p>October 6th, 2017</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    
+      <img class="version-wave-top" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/orange_wave_top.svg">
+      <div class="version-orange">
+        <div class="row">
+        <div class="left-text col-md-6 col-xs-12">
+          <div class="version-major">
+            <h2> Piwigo 2.6.0</h2>
+            <p>October 8th, 2019</p>
+            <div class="version-major-content">
+              <ul class="bold">
+                <li>Default theme Modus</li>
+                <li>Admin redesign</li>
+                <li>Dark mode</li>
+              </ul>
+              <div class="read-more">
+                <a>See more details</a>
+              </div>
+            </div>
+          </div>        
+          <div class="minor-versions-container">
+            <div class="version-minor">
+              <a src="#">
+                <h2>2.10.1</h2>
+                <p>October 14th, 2019</p>
+              <a>
+            </div>
+            <div class="version-minor">
+              <a src="#">
+                <h2>2.10.2</h2>
+                <p>March 27th, 2020</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="right-image col-md-6 col-xs-12">
+          <img class="corner1" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
+          <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.10.png">
+          <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
+        </div>
+        </div>
+      </div>
+      <img class="version-wave-bottom"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/orange_wave_bottom.svg">
+
+      <div class="version-blue no-wave">
+        <div class="row">
+        <div class="left-image col-md-6 col-xs-12">
+          <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
+          <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.9.png">
+          <img class="corner4" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
+        </div>
+        <div class="right-text col-md-6 col-xs-12">
+          <div class="version-major">
+            <h2> Piwigo 2.6.0</h2>
+            <p>May 2nd, 2017</p>
+            <div class="version-major-content">
+              <ul class="bold">
+                <li>Modernized design</li>
+                <li>update notification</li>
+              </ul>
+              <div class="read-more">
+                <a>See more details</a>
+              </div>
+            </div>
+          </div>        
+          <div class="minor-versions-container">
+            <div class="version-minor">
+              <h2>2.9.1</h2>
+              <p>June 15th, 2017</p>
+            </div>
+            <div class="version-minor">
+              <h2>2.9.2</h2>
+              <p>October 6th, 2017</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <img class="version-wave-top"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/orange_wave_top.svg">
+       <div class="version-orange primary-version">
+        <div class="row">
+        <div class="left-text col-md-6 col-xs-12">
+          <div class="primary-version">
+            <h2> Piwigo 1.0.0</h2>
+            <p>2002-04-15</p>
+            <div class="primary-version-content">
+            <p>Birth of piwigo</p>
+                <div class="read-more">
+                <a>See more details</a>
+              </div>
+            </div>
+          </div>        
+        </div>
+        <div class="right-image col-md-6 col-xs-12">
+          <img src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/birth-piwigo-illustration.svg">
+        </div>
+        </div>
+      </div>
+      <img class="version-wave-bottom"  src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/orange_wave_bottom.svg">
+
     </div>
   </div>
+</section>
 
   <section class="container-fluide container-fluide-techs-view">
     <div class="container">
@@ -71,4 +305,3 @@
     </div>
   </section>
 
-  <script src="{$PORG_ROOT_URL}js/changelogs.js"></script>
