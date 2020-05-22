@@ -22,7 +22,9 @@
         <div class="row">
         <div class="left-text col-md-6 col-xs-12">
           <div class="version-major">
-            <h2> Piwigo 2.10.0</h2>
+            <a href="#">
+              <h2> Piwigo 2.10.0</h2>
+            </a>
             <p>October 8th, 2019</p>
             <div class="version-major-content">
               <ul class="bold">
@@ -32,9 +34,7 @@
                 ·
                 <li>Dark mode</li>
               </ul>
-              <div class="read-more">
-                <a>See more details</a>
-              </div>
+              
             </div>
           </div>        
           <div class="minor-versions-container">
@@ -72,7 +72,9 @@
         </div>
         <div class="right-text col-md-6 col-xs-12">
           <div class="version-major">
-            <h2> Piwigo 2.9.0</h2>
+            <a href="#">
+              <h2> Piwigo 2.9.0</h2>
+            </a>
             <p>May 2nd, 2017</p>
             <div class="version-major-content">
               <ul class="bold">
@@ -80,9 +82,6 @@
                 ·
                 <li>update notification</li>
               </ul>
-              <div class="read-more">
-                <a>See more details</a>
-              </div>
             </div>
           </div>        
           <div class="minor-versions-container">
@@ -118,7 +117,9 @@
         <div class="row">
         <div class="left-text col-md-6 col-xs-12">
           <div class="version-major">
-            <h2> Piwigo 2.8.0</h2>
+            <a href="#">
+              <h2> Piwigo 2.8.0</h2>
+            </a>
             <p>October 8th, 2019</p>
             <div class="version-major-content">
               <ul class="bold">
@@ -128,9 +129,6 @@
                  ·
                 <li>Dark mode</li>
               </ul>
-              <div class="read-more">
-                <a>See more details</a>
-              </div>
             </div>
           </div>        
           <div class="minor-versions-container">
@@ -180,7 +178,9 @@
         </div>
         <div class="right-text col-md-6 col-xs-12">
           <div class="version-major">
-            <h2> Piwigo 2.7.0</h2>
+            <a href="#">
+              <h2> Piwigo 2.7.0</h2>
+            </a>
             <p>May 2nd, 2017</p>
             <div class="version-major-content">
               <ul class="bold">
@@ -188,9 +188,6 @@
                 ·
                 <li>update notification</li>
               </ul>
-              <div class="read-more">
-                <a>See more details</a>
-              </div>
             </div>
           </div>        
           <div class="minor-versions-container">
@@ -214,7 +211,9 @@
         <div class="row">
         <div class="left-text col-md-6 col-xs-12">
           <div class="version-major">
-            <h2> Piwigo 2.6.0</h2>
+            <a href="#">
+              <h2> Piwigo 2.6.0</h2>
+            </a>
             <p>October 8th, 2019</p>
             <div class="version-major-content">
               <ul class="bold">
@@ -223,22 +222,21 @@
                 <li>Admin redesign</li>
                 ·
                 <li>Dark mode</li>
+                ·
+                <li>Dark mode</li>
               </ul>
-              <div class="read-more">
-                <a>See more details</a>
-              </div>
             </div>
           </div>        
           <div class="minor-versions-container">
             <div class="version-minor">
               <a src="#">
-                <h2>2.10.1</h2>
+                <h2>2.6.1</h2>
                 <p>October 14th, 2019</p>
               <a>
             </div>
             <div class="version-minor">
               <a src="#">
-                <h2>2.10.2</h2>
+                <h2>2.6.2</h2>
                 <p>March 27th, 2020</p>
               </a>
             </div>
@@ -264,16 +262,15 @@
         </div>
         <div class="right-text col-md-6 col-xs-12">
           <div class="version-major">
-            <h2> Piwigo 2.6.0</h2>
+            <a href="#">
+              <h2> Piwigo 2.5.0</h2>
+            </a>
             <p>May 2nd, 2017</p>
             <div class="version-major-content">
               <ul class="bold">
                 <li>Modernized design</li>
                 <li>update notification</li>
               </ul>
-              <div class="read-more">
-                <a>See more details</a>
-              </div>
             </div>
           </div>        
           <div class="minor-versions-container">
