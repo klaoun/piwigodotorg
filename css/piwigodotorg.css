@@ -5658,6 +5658,7 @@ label {
 .container-changelogs-versions .version-purple{
     background-color:#efecfa;
     position:relative;
+    padding:60px 0;
 }
 
 .version-purple .version-major,
@@ -5692,6 +5693,7 @@ label {
 .container-changelogs-versions .version-blue{
     background-color:#f7fbff;
     position:relative;
+    padding:60px 0;
 }
 
 .version-blue .version-major,
@@ -5729,6 +5731,7 @@ label {
 .container-changelogs-versions .version-orange{
     background-color:#ffeacf;
     position:relative;
+    padding:60px 0;
 }
 
 .version-orange .version-major,
@@ -5765,6 +5768,38 @@ label {
 
 .no-wave{
     background-color:transparent!important;
+}
+
+@media (max-width: 991px){
+    .left-image-changelogs,
+    .right-image-changelogs,
+    .changelogs-intro-text{
+        position:relative;
+        transform:unset;
+        top:unset;
+        left:unset;
+        
+    }
+    .changelogs-intro-text h1{
+        font-weight: 900;
+        line-height: 40px;
+        text-align: center;
+        font-size:30px;
+    }
+
+    .right-image-changelogs{
+        margin-top:60px;
+    }
+
+    .left-image-changelogs{
+        margin-bottom:60px;
+    }
+
+    .right-text-changelogs,
+    .left-text-changelogs{
+        float:unset;
+    }
+    
 }
 
  /* Techs views */
