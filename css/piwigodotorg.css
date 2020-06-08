@@ -5575,36 +5575,58 @@ label {
     position:relative;
 }
 
-.right-image .version-image{
+.right-image-changelogs .version-image{
     margin: 0;
     width:60%;
 }
 
-.container-changelogs-versions .right-image .corner1{
+.container-changelogs-versions .right-image-changelogs .corner1{
     top: -30px;
     left: 86px;
     position:absolute;
 }
 
-.container-changelogs-versions .right-image .corner2{
+.container-changelogs-versions .right-image-changelogs .corner2{
     bottom: -30px;
     right: 96px;
     position:absolute;
 }
 
-.left-image .version-image{
+.left-image-changelogs{
+    position:absolute;
+    transform:translateY(-50%);
+    top:50%;
+    left:0;
+}
+
+.right-text-changelogs{
+    float:right;
+}
+
+.right-image-changelogs{
+    position:absolute;
+    transform:translateY(-50%);
+    top:50%;
+    right:0;
+}
+
+.left-text-changelogs{
+    float:left;
+}
+
+.left-image-changelogs .version-image{
     margin: 0;
     width:60%;
 }
 
-.container-changelogs-versions .left-image .corner3{
+.container-changelogs-versions .left-image-changelogs .corner3{
     top: -30px;
     right:90px;
     position:absolute;
     transform: rotate(-90deg);
 }
 
-.container-changelogs-versions .left-image .corner4{
+.container-changelogs-versions .left-image-changelogs .corner4{
     bottom: -30px;
     left:90px;
     position:absolute;

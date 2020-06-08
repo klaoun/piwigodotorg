@@ -20,7 +20,7 @@
       <div class="version-purple">
       <div class="container">
         <div class="row">
-        <div class="left-text col-md-6 col-xs-12">
+        <div class="left-text-changelogs col-md-6 col-xs-12">
           <div class="version-major">
             <a href="#">
               <h2> Piwigo 2.10.0</h2>
@@ -52,7 +52,7 @@
             </div>
           </div>
         </div>
-        <div class="right-image col-md-6 col-xs-12">
+        <div class="right-image-changelogs col-md-6 col-xs-12">
           <img class="corner1" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
           <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.10.png">
           <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
@@ -65,12 +65,12 @@
       <div class="version-orange no-wave">
       <div class="container">
         <div class="row">
-        <div class="left-image col-md-6 col-xs-12">
+        <div class="left-image-changelogs col-md-6 col-xs-12">
           <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
           <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.9.png">
           <img class="corner4" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
         </div>
-        <div class="right-text col-md-6 col-xs-12">
+        <div class="right-text-changelogs col-md-6 col-xs-12">
           <div class="version-major">
             <a href="#">
               <h2> Piwigo 2.9.0</h2>
@@ -115,7 +115,7 @@
       <div class="version-blue">
       <div class="container">
         <div class="row">
-        <div class="left-text col-md-6 col-xs-12">
+        <div class="left-text-changelogs col-md-6 col-xs-12">
           <div class="version-major">
             <a href="#">
               <h2> Piwigo 2.8.0</h2>
@@ -158,7 +158,7 @@
             </div>
           </div>
         </div>
-        <div class="right-image col-md-6 col-xs-12">
+        <div class="right-image-changelogs col-md-6 col-xs-12">
           <img class="corner1" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
           <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.10.png">
           <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
@@ -171,12 +171,12 @@
       <div class="version-purple no-wave">
       <div class="container">
         <div class="row">
-        <div class="left-image col-md-6 col-xs-12">
+        <div class="left-image-changelogs col-md-6 col-xs-12">
           <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
           <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.9.png">
           <img class="corner4" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
         </div>
-        <div class="right-text col-md-6 col-xs-12">
+        <div class="right-text-changelogs col-md-6 col-xs-12">
           <div class="version-major">
             <a href="#">
               <h2> Piwigo 2.7.0</h2>
@@ -209,7 +209,7 @@
       <div class="version-orange">
       <div class="container">
         <div class="row">
-        <div class="left-text col-md-6 col-xs-12">
+        <div class="left-text-changelogs col-md-6 col-xs-12">
           <div class="version-major">
             <a href="#">
               <h2> Piwigo 2.6.0</h2>
@@ -242,7 +242,7 @@
             </div>
           </div>
         </div>
-        <div class="right-image col-md-6 col-xs-12">
+        <div class="right-image-changelogs col-md-6 col-xs-12">
           <img class="corner1" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
           <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.10.png">
           <img class="corner2" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
@@ -255,12 +255,12 @@
       <div class="version-blue no-wave">
       <div class="container">
         <div class="row">
-        <div class="left-image col-md-6 col-xs-12">
+        <div class="left-image-changelogs col-md-6 col-xs-12">
           <img class="corner3" src="{$PORG_ROOT_URL}images/changelogs/corner-image2.svg">
           <img class="version-image" src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/2.9.png">
           <img class="corner4" src="{$PORG_ROOT_URL}images/changelogs/corner-image1.svg">
         </div>
-        <div class="right-text col-md-6 col-xs-12">
+        <div class="right-text-changelogs col-md-6 col-xs-12">
           <div class="version-major">
             <a href="#">
               <h2> Piwigo 2.5.0</h2>
@@ -292,7 +292,7 @@
        <div class="version-orange primary-version">
        <div class="container">
         <div class="row">
-        <div class="left-text col-md-6 col-xs-12">
+        <div class="left-text-changelogs col-md-6 col-xs-12">
           <div class="primary-version">
             <h2> Piwigo 1.0.0</h2>
             <p>2002-04-15</p>
@@ -304,7 +304,7 @@
             </div>
           </div>        
         </div>
-        <div class="right-image col-md-6 col-xs-12">
+        <div class="right-image-changelogs col-md-6 col-xs-12">
           <img src="{$PORG_ROOT_URL}images/changelogs/changelogs-page/birth-piwigo-illustration.svg">
         </div>
         </div>
